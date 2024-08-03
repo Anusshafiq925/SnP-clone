@@ -109,7 +109,7 @@ li a {
   height: max-content;
   width: 260px;
   margin: 10px;
-  float: left;
+  /* float: left; */
 }
 
 .sec {
@@ -119,6 +119,7 @@ li a {
   height: max-content;
   width: max-content;
   margin: 50px auto;
+  display: flex;
 }
 .image {
   height: max-content;
@@ -201,7 +202,7 @@ p {
 }
 
 .franchisediv {
-  height: 1330px;
+  height: max-content;
   background-color: #141313;
   margin: 0px;
   padding: 5px;
@@ -340,7 +341,7 @@ h1 {
 }
 
 .branchdiv {
-  height: 2400px;
+  height: max-content;
   background-color: black;
   margin: 0px;
   padding: 5px;
@@ -401,7 +402,7 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .locatione {
   height: 500px;
@@ -515,7 +516,7 @@ h1 {
 }
 
 .vbranch {
-  height: 620px;
+  height: max-content;
   margin: 0px auto;
   padding: 20px;
   background-color: #141313;
@@ -589,4 +590,130 @@ h1 {
   color: white;
   background-color: #1e9c2f;
   border-radius: 50%;
+}
+
+.comingsoondiv {
+  height: max-content;
+}
+
+.cs {
+  font-size: 20px;
+}
+
+.locationdiv {
+  height: max-content;
+  width: 80%;
+  color: black;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.loccard {
+  background-color: white;
+  height: 250px;
+  width: 350px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cardimg {
+  background-image: url(./Assets/loc.webp);
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.cardcontent {
+  text-align: center;
+  height: 150px;
+  width: 250px;
+  margin: 10px auto;
+}
+
+.os {
+  font-size: 10px;
+  color: red;
+  letter-spacing: 10px;
+}
+
+.sp {
+  font-size: 20px;
+}
+
+.snp {
+  font-family: futura1;
+  font-size: 25px;
+}
+
+.social {
+  height: max-content;
+  background-color: black;
+  padding: 50px;
+}
+
+h3 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.socialpost {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.socialimg1 {
+  height: 260px;
+  width: 260px;
+  background-image: url(./Assets/c1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.socialimg2 {
+  height: 260px;
+  width: 260px;
+  background-image: url(./Assets/c2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.socialimg3 {
+  height: 260px;
+  width: 260px;
+  background-image: url(./Assets/c3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.socialimg4 {
+  height: 260px;
+  width: 260px;
+  background-image: url(./Assets/c4.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.socialimg5 {
+  height: 260px;
+  width: 260px;
+  background-image: url(./Assets/c5.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
