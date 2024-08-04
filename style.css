@@ -36,12 +36,12 @@
   width: 170px;
 }
 
-ul li {
+.hlist {
   display: inline-block;
   font-size: large;
 }
 
-ul {
+.hlinks {
   display: flex;
   gap: 25px;
 }
@@ -64,6 +64,7 @@ li a {
   border: 1px solid white;
   border-radius: 30px;
   margin: 10px;
+  font-size: smaller;
 }
 
 .btn2 {
@@ -77,6 +78,7 @@ li a {
   align-items: center;
   gap: 10px;
   padding-left: 15px;
+  font-size: smaller;
 }
 
 .icon {
@@ -92,7 +94,7 @@ li a {
 }
 
 .data {
-  height: 500px;
+  height: max-content;
   width: 100%;
 }
 
@@ -114,13 +116,18 @@ li a {
 
 .sec {
   background-color: black;
+  margin: 0px;
 }
 .cards {
   height: max-content;
-  width: max-content;
-  margin: 50px auto;
+  width: 80%;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px auto;
+  gap: 50px;
 }
+
 .image {
   height: max-content;
   width: max-content;
@@ -128,38 +135,32 @@ li a {
 }
 
 .log1 {
-  background-color: aliceblue;
   background-image: url(./Assets/Restaurant.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 150px;
   width: 250px;
-  float: left;
   border-radius: 5px;
 }
 
 .log2 {
-  background-color: aliceblue;
   background-image: url(./Assets/express.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 150px;
   width: 250px;
-  float: left;
   border-radius: 5px;
 }
 
 .log3 {
-  background-color: aliceblue;
   background-image: url(./Assets/Village.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 150px;
   width: 250px;
-  float: left;
   border-radius: 5px;
 }
 
@@ -175,12 +176,13 @@ img {
   background-color: black;
   border: 1px solid white;
   border-radius: 30px;
+  font-size: smaller;
 }
 
-.btn {
+.btn0 {
   height: max-content;
   width: max-content;
-  margin: 200px auto 0px auto;
+  margin: 30px auto 0px auto;
 }
 
 .head {
@@ -292,6 +294,7 @@ p {
   display: inline-flex;
   gap: 10px;
   padding-left: 10px;
+  font-size: smaller;
 }
 
 .icon1 {
@@ -326,9 +329,10 @@ p {
   line-height: 0px;
 }
 
-h1 {
+.restaurant {
   color: white;
   font-weight: lighter;
+  font-size: x-large;
 }
 
 .loc {
@@ -377,6 +381,7 @@ h1 {
 .express {
   font-size: 20px;
   font-weight: lighter;
+  color: white;
 }
 .locnamee {
   font-size: 25px;
@@ -423,6 +428,7 @@ h1 {
   display: inline-flex;
   gap: 10px;
   padding-left: 10px;
+  font-size: smaller;
 }
 
 .locimge2 {
@@ -524,9 +530,11 @@ h1 {
 
 .vcontentdiv {
   height: max-content;
-  width: max-content;
+  width: 80%;
   display: flex;
+  flex-direction: row;
   gap: 30px;
+  margin: 20px auto;
 }
 
 .vlocimg {
@@ -538,6 +546,10 @@ h1 {
   background-image: url(./Assets/vgujar.webp);
 }
 
+.village {
+  color: white;
+  font-size: x-large;
+}
 .vlocation {
   display: flex;
   height: 400px;
@@ -579,6 +591,7 @@ h1 {
   display: inline-flex;
   gap: 10px;
   padding-left: 15px;
+  font-size: smaller;
 }
 
 .vicon {
@@ -716,4 +729,129 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+footer {
+  background-color: #141313;
+  height: max-content;
+}
+
+.desclogo {
+  background-image: url(./Assets/Logo.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 170px;
+}
+
+.flist {
+  list-style-type: none;
+}
+
+.flist a {
+  text-decoration: none;
+  line-height: 30px;
+  color: grey;
+}
+
+.sbtn {
+  margin: 20px 0px;
+}
+
+.sbtns {
+  background-color: red;
+  color: white;
+  font-size: x-large;
+  border: 1px solid red;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 2px;
+}
+
+.appimg1 {
+  background-image: url(./Assets/as.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 170px;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.appimg2 {
+  background-image: url(./Assets/gp.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 170px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.white {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+address {
+  color: gray;
+  font-size: small;
+}
+
+p a {
+  text-decoration: none;
+  color: grey;
+  font-size: small;
+}
+
+.descp {
+  font-size: small;
+  margin-top: 30px;
+}
+
+.desc {
+  height: 400px;
+  width: 280px;
+}
+
+.cta {
+  height: 400px;
+  width: 280px;
+}
+
+.sitelink {
+  height: 400px;
+  width: 280px;
+}
+
+.followus {
+  height: 400px;
+  width: 280px;
+}
+
+.footer1 {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: max-content;
+  gap: 40px;
+  padding: 100px 0px;
+}
+
+.ph {
+  color: white;
+  font-size: medium;
+}
+
+.lh {
+  line-height: 5px;
 }
