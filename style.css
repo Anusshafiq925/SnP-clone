@@ -41,11 +41,15 @@
   font-size: large;
 }
 
-.hlinks {
-  display: flex;
+ul {
+  display: flex !important;
   gap: 25px;
+  margin: auto auto;
 }
 
+.hlist a {
+  text-decoration: none;
+}
 li a {
   color: white;
 }
@@ -53,7 +57,7 @@ li a {
 .content {
   display: flex;
   gap: 25px;
-  align-items: center;
+  align-items: center !important;
 }
 
 .btn1 {
@@ -95,7 +99,9 @@ li a {
 
 .data {
   height: max-content;
-  width: 100%;
+  background-color: black;
+  margin: 0px;
+  padding: 5px;
 }
 
 .write {
@@ -105,6 +111,13 @@ li a {
   margin: 50px auto;
   color: white;
   line-height: 25px;
+  text-wrap: wrap;
+}
+
+.image {
+  height: max-content;
+  width: max-content;
+  margin: 20px auto;
 }
 
 .logo1 {
@@ -119,19 +132,12 @@ li a {
   margin: 0px;
 }
 .cards {
-  height: max-content;
   width: 80%;
+  margin: 0px auto;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  margin: 10px auto;
-  gap: 50px;
-}
-
-.image {
-  height: max-content;
-  width: max-content;
-  margin: 20px auto;
 }
 
 .log1 {
@@ -360,6 +366,10 @@ p {
   line-height: 20px;
 }
 
+.locationddatae {
+  margin: 10px;
+}
+
 .locimge1 {
   height: 250px;
   width: 330px;
@@ -414,6 +424,7 @@ p {
   width: 330px;
   margin: 15px auto;
   text-align: center;
+  gap: 25px;
 }
 
 .logbtne {
