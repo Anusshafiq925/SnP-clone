@@ -41,7 +41,7 @@
   font-size: large;
 }
 
-ul {
+#hlist {
   display: flex !important;
   gap: 25px;
   margin: auto auto;
